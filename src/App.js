@@ -90,6 +90,7 @@ function App() {
 						title={'Corona Virus Cases'}
 						cases={prettyPrintStat(countryInfo.todayCases)}
 						total={prettyPrintStat(countryInfo.cases)}
+						key={'infoB1'}
 					/>
 					<InfoBox
 						active={casesType === 'recovered'}
@@ -97,6 +98,7 @@ function App() {
 						title={'Recovered'}
 						cases={prettyPrintStat(countryInfo.todayRecovered)}
 						total={prettyPrintStat(countryInfo.recovered)}
+						key={'infoB2'}
 					/>
 					<InfoBox
 						isRed
@@ -105,6 +107,7 @@ function App() {
 						title={'Deaths'}
 						cases={prettyPrintStat(countryInfo.todayDeaths)}
 						total={prettyPrintStat(countryInfo.deaths)}
+						key={'infoB3'}
 					/>
 				</div>
 

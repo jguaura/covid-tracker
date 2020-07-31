@@ -20,6 +20,10 @@ body {
 	flex: 0.9;
 }
 
+.app_right {
+	
+}
+
 .app__header {
 	display: flex;
 	align-items: center;

@@ -21,7 +21,6 @@ body {
 }
 
 .app_right {
-	
 }
 
 .app__header {
@@ -44,5 +43,14 @@ body {
 @media (max-width: 990px) {
 	.app {
 		flex-direction: column;
+	}
+}
+
+@media (max-width: 767px) {
+	.app__stats {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 20px 0px;
+		/* background: crimson; */
 	}
 }
